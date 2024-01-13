@@ -193,7 +193,7 @@
      border: 1px solid #FF900E;
      text-align: center;
      padding: 30px;
-     width: 240px ;
+     width: 240px;
      height: 150px;
  }
 
@@ -209,21 +209,36 @@
      font-weight: 600;
      margin-top: 5px;
  }
-.sponsors{
-    text-align: center;
-    margin-top:100px ;
-}
-.sponsors-img{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top:50px ;
-    gap: 20px;
-}
-.sponsors-img>img{
-    width: 165px;
-}
 
+ .sponsors {
+     text-align: center;
+     margin-top: 100px;
+ }
+
+ .sponsors-img {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 50px;
+     gap: 20px;
+ }
+
+ .sponsors-img>img {
+     width: 165px;
+ }
+
+ .footer-description {
+     border-radius: 8px;
+     background: #FFF4E7;
+     text-align: center;
+     height: 100px;
+     margin: 50px 240px;
+     padding-top: 80px;
+     color: var(--Dark-02, #424242);
+     font-size: 20px;
+     font-weight: 400;
+
+ }
 
 
 
@@ -259,13 +274,16 @@
          grid-template-columns: 1fr;
      }
 
-     .teams-content,.facts-card, {
-         padding-top: 2rem;
-         padding-left: 20px;
-         padding-right: 20px;
+     .teams-content,
+     .facts-card,
+     {
+     padding-top: 2rem;
+     padding-left: 20px;
+     padding-right: 20px;
      }
-     .sponsors{
-        padding-left: 20px;
+
+     .sponsors {
+         padding-left: 20px;
         margin-right: 100px;
      }
 
@@ -276,6 +294,10 @@
      .ten-year-badge {
          left: 10px;
          right: 10px;
+     }
+
+     .footer-description {
+        margin: 20px 30px;
      }
  }
 
@@ -306,5 +328,8 @@
 
      .ten-year-badge {
          left: 1rem;
+     }
+     .footer-description {
+        margin: 20px 30px;
      }
  }
